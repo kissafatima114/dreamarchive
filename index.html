@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Archive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page" data-page="home">
+
+  <div class="noise"></div>
+  <div class="vignette"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="floating-orbs" id="floatingOrbs">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="orb orb-4"></span>
+    <span class="orb orb-5"></span>
+    <span class="orb orb-6"></span>
+  </div>
+
+  <div class="homepage-preview" id="homepagePreview"></div>
+  <canvas id="dustCanvas"></canvas>
+
+  <main class="home-container minimalist-home" id="homeContainer">
+    <div class="title-wrap" id="titleWrap">
+      <h1 class="site-title centered-title" id="homeTitle">Dream Archive</h1>
+      <div class="title-ghost" id="titleGhost">Dream Archive</div>
+      <div class="title-ghost-2" id="titleGhost2">Dream Archive</div>
+    </div>
+
+    <section class="floating-entry-previews">
+      <a class="floating-entry-card" href="entry1.html" data-entry="entry1" data-preview="images/dream1.PNG" aria-label="Entry 01">
+        <img src="images/dream1.PNG" alt="Dream entry 1 preview" />
+      </a>
+
+      <a class="floating-entry-card" href="entry2.html" data-entry="entry2" data-preview="images/dream2.PNG" aria-label="Entry 02">
+        <img src="images/dream2.PNG" alt="Dream entry 2 preview" />
+      </a>
+
+      <a class="floating-entry-card" href="entry3.html" data-entry="entry3" data-preview="images/dream3.PNG" aria-label="Entry 03">
+        <img src="images/dream3.PNG" alt="Dream entry 3 preview" />
+      </a>
+
+      <a class="floating-entry-card" href="entry4.html" data-entry="entry4" data-preview="images/dream4.PNG" aria-label="Entry 04">
+        <img src="images/dream4.PNG" alt="Dream entry 4 preview" />
+      </a>
+
+      <a class="floating-entry-card" href="entry5.html" data-entry="entry5" data-preview="images/dream5.PNG" aria-label="Entry 05">
+        <img src="images/dream5.PNG" alt="Dream entry 5 preview" />
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
